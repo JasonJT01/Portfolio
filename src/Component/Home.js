@@ -20,7 +20,7 @@ function Home() {
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div className="navbar-collapse collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <a className="nav-link" href="#abtme">About Me</a>
@@ -60,7 +60,7 @@ function Home() {
                             </a>
                         </div>
                         <div className="col">
-                            <a href='https://sei-you.vercel.app/welcome' target="_blank" className='link'>
+                            <a href='https://play.google.com/store/apps/details?id=quick_recipe.didi_x_djongers' target="_blank" className='link'>
                                 <div className="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
                                     <img src="https://i.ibb.co/Hz4Xt0k/logo.png" className="card-img-top" alt="Quick Recipe" />
                                     <div className="card-body">
@@ -76,7 +76,7 @@ function Home() {
                     <h1 className='title'><b>Certificates</b></h1>
                     <div className="row row-cols-1 row-cols-md-2">
                         <div className="col">
-                            <a href='https://www.dicoding.com/certificates/MRZMDL8E0ZYQ' className='link'>
+                            <a href='https://www.dicoding.com/certificates/MRZMDL8E0ZYQ' target="_blank" className='link'>
                                 <div className="card" data-aos="fade-down-right" data-aos-duration="1000">
                                     <img src="https://i.ibb.co/ZTSX4ts/image.png" className="card-img-top" alt="C" />
                                     <div className="card-body">
@@ -86,7 +86,7 @@ function Home() {
                             </a>
                         </div>
                         <div className="col">
-                            <a href='https://www.dicoding.com/certificates/98XWR6JK0ZM3' className='link'>
+                            <a href='https://www.dicoding.com/certificates/98XWR6JK0ZM3' target="_blank" className='link'>
                                 <div className="card" data-aos="fade-down-left" data-aos-duration="1000">
                                     <img src="https://i.ibb.co/ZTSX4ts/image.png" className="card-img-top" alt="Java" />
                                     <div className="card-body">
@@ -103,7 +103,7 @@ function Home() {
                         <p id="socialmedia">Follow My Social Media</p>
                         <div className='socialmedia'>
                             <a href="mailto: jason.tandiono@student.umn.ac.id"><MdEmail size="2em" color="blue" className="icons" /></a>
-                            <a href="https://www.instagram.com/soluseagt/?hl=en" target="_blank"><RiInstagramFill size="2em" color="#E1306C" className="icons" /></a>
+                            <a href="https://www.instagram.com/jas_tandiono/?hl=en" target="_blank"><RiInstagramFill size="2em" color="#E1306C" className="icons" /></a>
                             <a href="https://github.com/JasonJT01" target="_blank"><RiGithubFill size="2em" color="black" className="icons" /></a>
                             <a href="https://www.linkedin.com/in/jason-tandiono-773044237/" target="_blank"><BsLinkedin size="1.63em" color="#0072b1" className="icons linkedin" /></a>
                         </div>
