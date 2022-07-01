@@ -1,5 +1,6 @@
 import { MdEmail } from "react-icons/md";
 import { RiInstagramFill, RiGithubFill } from "react-icons/ri";
+import { BsLinkedin } from "react-icons/bs";
 import { useEffect } from 'react';
 import AOS from 'aos';
 import "aos/dist/aos.css";
@@ -22,7 +23,7 @@ function Home() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#abtme">About Me</a>
+                                <a className="nav-link" href="#abtme">About Me</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#proj">Projects</a>
@@ -104,6 +105,7 @@ function Home() {
                             <a href="mailto: jason.tandiono@student.umn.ac.id"><MdEmail size="2em" color="blue" className="icons" /></a>
                             <a href="https://www.instagram.com/soluseagt/?hl=en" target="_blank"><RiInstagramFill size="2em" color="#E1306C" className="icons" /></a>
                             <a href="https://github.com/JasonJT01" target="_blank"><RiGithubFill size="2em" color="black" className="icons" /></a>
+                            <a href="https://www.linkedin.com/in/jason-tandiono-773044237/" target="_blank"><BsLinkedin size="1.63em" color="#0072b1" className="icons linkedin" /></a>
                         </div>
                         <p>Copyright @ 2022 by Jason Tandiono</p>
                     </div>

@@ -1,7 +1,6 @@
 html,
 body {
     width: 100%;
-    /* height: 100%; */
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -9,11 +8,6 @@ body {
 
 .navbar-bg {
     background-color: #f8f9fa;
-}
-
-.nav-link.active {
-    background-color: #dee2e6;
-    border-radius: 8px;
 }
 
 .frame {
@@ -161,4 +155,24 @@ body {
     .frame {
         margin: auto 8% auto auto;
     }
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.nav-item {
+    transition: all .2s;
+}
+
+.nav-item:active {
+    transform: scale(0.8);
+}
+
+.linkedin {
+    margin-left: 3px;
 }
